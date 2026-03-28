@@ -1,0 +1,28 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 300" width="1200" height="300">
+  <defs>
+    <linearGradient id="bg" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#0d1117"/>
+      <stop offset="50%" style="stop-color:#161b22"/>
+      <stop offset="100%" style="stop-color:#0d1117"/>
+    </linearGradient>
+    <linearGradient id="accent" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" style="stop-color:#58a6ff"/>
+      <stop offset="50%" style="stop-color:#a371f7"/>
+      <stop offset="100%" style="stop-color:#79c0ff"/>
+    </linearGradient>
+    <filter id="glow" x="-20%" y="-20%" width="140%" height="140%">
+      <feGaussianBlur stdDeviation="3" result="b"/>
+      <feMerge><feMergeNode in="b"/><feMergeNode in="SourceGraphic"/></feMerge>
+    </filter>
+  </defs>
+  <rect width="1200" height="300" fill="url(#bg)"/>
+  <g opacity="0.08" stroke="#58a6ff" fill="none" stroke-width="0.5">
+    <path d="M0 80h1200M0 160h1200M0 240h1200M200 0v300M400 0v300M600 0v300M800 0v300M1000 0v300"/>
+  </g>
+  <circle cx="980" cy="70" r="120" fill="url(#accent)" opacity="0.06"/>
+  <circle cx="180" cy="220" r="90" fill="#a371f7" opacity="0.05"/>
+  <text x="600" y="118" text-anchor="middle" fill="#f0f6fc" font-family="ui-sans-serif,system-ui,Segoe UI,Helvetica,Arial,sans-serif" font-size="42" font-weight="700" filter="url(#glow)">Denis Goncharov</text>
+  <text x="600" y="168" text-anchor="middle" fill="#8b949e" font-family="ui-sans-serif,system-ui,Segoe UI,Helvetica,Arial,sans-serif" font-size="20">@8:;04=0O <0B5<0B8:0 8 8=D>@<0B8:0 · # · 5@<L</text>
+  <text x="600" y="208" text-anchor="middle" fill="url(#accent)" font-family="ui-monospace,SFMono-Regular,Consolas,monospace" font-size="15" letter-spacing="0.12em">WEB · BROWSER GAMES · PYTHON · TELEGRAM BOTS</text>
+  <rect x="450" y="248" width="300" height="3" rx="1.5" fill="url(#accent)" opacity="0.85"/>
+</svg>
